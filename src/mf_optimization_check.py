@@ -20,10 +20,7 @@ SHRINK = 0.01
 SEEDS = [1, 2, 3]
 
 CONFIGS = [
-    {"name": "baseline",       "steps": 3000, "lr": 1e-3},
-    {"name": "longer",         "steps": 6000, "lr": 1e-3},
-    {"name": "lower_lr",       "steps": 3000, "lr": 5e-4},
-    {"name": "longer_lower",   "steps": 6000, "lr": 5e-4},
+    {"name": "longest", "steps": 12000, "lr": 1e-3},
 ]
 
 HIDDEN = 128
