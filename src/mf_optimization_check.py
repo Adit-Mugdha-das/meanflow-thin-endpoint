@@ -142,7 +142,7 @@ def sample_meanflow(model, x1, steps):
 # =========================================================
 
 x0_train, x1_train, _, centres = make_pairs(
-    n_per_blob=1000,
+    n_per_blob=5000,
     shrink=SHRINK,
     seed=0
 )
